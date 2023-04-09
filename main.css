@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#squareContainer{
+    margin: 200px auto;
+    width: 525px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.squares{
+    flex-grow: 1;
+  margin: 5px;
+  width: 100px;
+  height: 100px;
+  background-color: #303030;
+}
+.darken{
+    background-color: #6b6b6b;
+}
+body{
+    background-color: whitesmoke;
+}
